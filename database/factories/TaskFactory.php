@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 
 class TaskFactory extends Factory
 {
-    // හැදෙන tasks ගණන් කරන්න
+    
     private static int $counter = 0;
 
     public function definition(): array
