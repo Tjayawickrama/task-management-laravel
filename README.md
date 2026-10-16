@@ -27,7 +27,7 @@ A simple task management application built with **Laravel**, **MySQL**, **Eloque
 
 ```bash
 # 1. Clone the repository and enter the project folder
-git clone <repository-url>
+git clone https://github.com/Tjayawickrama/task-management-laravel
 cd task-manager
 
 # 2. Install PHP dependencies
