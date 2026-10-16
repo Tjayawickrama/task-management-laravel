@@ -15,7 +15,7 @@
             theme: {
                 extend: {
                     fontFamily: { sans: ['Poppins', 'ui-sans-serif', 'system-ui', 'sans-serif'] },
-                    // "indigo" classes වලට teal පාට දානවා (අනිත් files වෙනස් කරන්න ඕනේ නැහැ)
+                   
                     colors: {
                         indigo: {
                             50: '#effafa', 100: '#d5f2f1', 200: '#aee5e4', 300: '#7cd1d1',
@@ -113,7 +113,7 @@
 </div>
 
 <script>
-    // Filter / search කරද්දී scroll position එක රැකගන්න
+    // Filter / search scroll position 
 const SCROLL_KEY = 'keep-scroll-y';
 
 function rememberScroll() {

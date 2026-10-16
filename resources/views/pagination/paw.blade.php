@@ -3,7 +3,7 @@
         $current = $paginator->currentPage();
         $last    = $paginator->lastPage();
 
-        // පෙන්වන page numbers 5ක window එක
+        
         $start = max(1, min($current - 2, $last - 4));
         $end   = min($last, $start + 4);
 
