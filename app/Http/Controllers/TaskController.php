@@ -68,12 +68,12 @@ class TaskController extends Controller
     }
 
     public function update(TaskRequest $request, Task $task)
-    {
-        $task->update($request->validated());
+{
+    $task->update($request->validated());
 
-        return redirect()->route('tasks.show', $task)
-            ->with('success', 'Task updated successfully.');
-    }
+    return redirect()->route('tasks.index')
+        ->with('success', 'Task updated successfully.');
+}
 
     public function updateStatus(Request $request, Task $task)
     {
