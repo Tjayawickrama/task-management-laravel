@@ -181,6 +181,6 @@
 </div>
 
 <div class="mt-5" data-keep-scroll>
-    {{ $tasks->links() }}
+    {{ $tasks->links('pagination.paw') }}
 </div>
 @endsection
